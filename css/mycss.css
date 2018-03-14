@@ -1,0 +1,31 @@
+body {
+    background-color: #fcfcfc;
+    font-size: 12px;
+}
+
+.card {
+    width:540px;
+    height:300px;
+    display:block;
+    margin: auto;
+    background-color: white;
+    margin-top: 100px;
+    padding: 20px;
+    box-shadow: 1px 1px 1px black;
+
+    background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.6)),url('./../ep_naturalwhite.png');
+}
+
+div#logo {
+    height:100px;
+    margin-bottom: 15px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+div#logo img{
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+
+}
